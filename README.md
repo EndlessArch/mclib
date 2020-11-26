@@ -33,6 +33,10 @@ Windows:
 `unzip lib.zip`  
 Open `mclib.sln` with Visual Studio 2017 and build
 
+MacOS:
+`cmake CMakeLists.txt -DOPENSSL_ROOT_DIR=/path/to/openssl/`
+make
+
 ## Examples
 - [terracotta](https://github.com/plushmonkey/Terracotta) : OpenGL client
 - [client](https://github.com/plushmonkey/mclib/blob/master/client/main.cpp) : Basic example client for connecting to a server

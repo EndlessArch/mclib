@@ -33,8 +33,8 @@ Windows:
 `unzip lib.zip`  
 Open `mclib.sln` with Visual Studio 2017 and build
 
-MacOS:
-`cmake CMakeLists.txt -DOPENSSL_ROOT_DIR=/path/to/openssl/`
+MacOS:  
+`cmake CMakeLists.txt -DOPENSSL_ROOT_DIR=/path/to/openssl/`  
 make
 
 ## Examples

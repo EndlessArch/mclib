@@ -112,4 +112,5 @@ add_executable(client
 	client/TextureGrabber.cpp
 )
 
+set_target_properties(client PROPERTIES OUTPUT_NAME "mclib_client")
 target_link_libraries(client PRIVATE mclib)
